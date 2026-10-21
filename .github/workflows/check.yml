@@ -1,0 +1,21 @@
+name: Validate setup
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Shell syntax
+        run: bash -n install.sh scripts/packages.sh
+      - name: Asset integrity
+        working-directory: assets
+        run: sha256sum -c SHA256SUMS
+      - name: Installer and rollback tests
+        run: python3 -m unittest discover -s tests -v

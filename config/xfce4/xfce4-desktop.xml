@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<channel name="xfce4-desktop" version="1.0">
+  <property name="desktop-icons" type="empty">
+    <property name="icon-size" type="uint" value="48" />
+    <property name="use-custom-label-text-color" type="bool" value="true" />
+    <property name="label-text-color" type="array">
+      <value type="double" value="0" />
+      <value type="double" value="0" />
+      <value type="double" value="0" />
+      <value type="double" value="1" />
+    </property>
+  </property>
+</channel>

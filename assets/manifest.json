@@ -1,0 +1,20 @@
+{
+  "captured": "2026-10-21",
+  "source_os": "Fedora Linux 44",
+  "xfce": "4.20",
+  "gtk_theme": "IndigoMagic",
+  "window_theme": "IndigoMagic",
+  "icon_theme": "IndigoMagic-Panel",
+  "icon_parent": "sgi-elementary-xfce",
+  "cursor": "redSGI",
+  "wallpaper": "Sprinkle.png",
+  "source_dpi": 112,
+  "targets": [
+    ".themes/IndigoMagic",
+    ".icons/sgi-elementary-xfce",
+    ".icons/redSGI",
+    ".icons/IndigoMagic-Panel",
+    ".local/share/fonts/indigomagic",
+    ".local/share/xfce-desktop-setup"
+  ]
+}
