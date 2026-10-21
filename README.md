@@ -23,6 +23,24 @@ Bring the same setup to **Fedora, Ubuntu/Debian, or CachyOS/Arch** with the incl
 
 </details>
 
+<details>
+<summary>Thunar file manager</summary>
+
+![Thunar file manager with the IndigoMagic theme](screenshots/thunar.png)
+
+Thunar showing this repository, with the themed window borders, toolbar, sidebar, and file view.
+
+</details>
+
+<details>
+<summary>Suspend and power dialog</summary>
+
+![XFCE logout and power dialog with the Suspend button](screenshots/suspend-dialog.png)
+
+The themed XFCE session dialog showing Log Out, Restart, Shut Down, and Suspend. Available power actions depend on the destination PC.
+
+</details>
+
 These are real screenshots of the source desktop. Application icons, desktop files such as the game shortcut, running apps, and tray items depend on what is installed on your PC. They are not all installed by this repository.
 
 ## Requirements and compatibility
